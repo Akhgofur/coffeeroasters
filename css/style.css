@@ -108,8 +108,6 @@ img {
 }
 .site-main {
 }
-.hero-section {
-}
 .hero__container {
   background: #A2A2A2;
   background-image: url(../img/bg-image.jpg);
@@ -331,7 +329,7 @@ img {
 }
 .site-footer {
 }
-.footer__container {
+.site-footer__container {
   padding: 47px 85px;
   background-color: #2C343E;
   display: flex;
