@@ -203,8 +203,6 @@ img {
   margin: 0;
   color: #333D4B;  
 }
-.about {
-}
 .about__container {
   padding-top: 100px;
   padding-bottom: 317px;
@@ -345,7 +343,7 @@ img {
   margin-left: 103px;
   margin-right: auto;
 }
-.footer-sm-list {
+.site-footer__sm-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -353,13 +351,13 @@ img {
   align-items: center;
   justify-content: center;
 }
-.footer-sm-item:not(:last-child) {
+.site-footer__sm-item:not(:last-child) {
   margin-right: 24px; 
 } 
-.footer-sm-link
-.footer-sm-logo:hover {
+.site-footer__sm-link
+.site-footer__sm-logo:hover {
   opacity: 0.5;
 }
-.footer-sm-logo {
+.site-footer__sm-logo {
   display: block;
 }
