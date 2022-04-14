@@ -28,11 +28,15 @@
 
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   background-color: #FEFCF7;
   font-weight: 400;
   font-size: 16px;
@@ -83,6 +87,9 @@ only screen and (min-resolution: 2dppx) {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.site-main {
+  flex-grow: 1;
 }
 .site-logo {
   display: block;
