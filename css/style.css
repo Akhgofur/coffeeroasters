@@ -771,4 +771,9 @@ only screen and (min-resolution: 2dppx) {
     margin-bottom: 16px;
     
   }
+  
+  .coffecreate__form-desc-wrapper {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
 }
