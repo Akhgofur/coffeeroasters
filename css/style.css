@@ -373,7 +373,7 @@ only screen and (min-resolution: 2dppx) {
   display: block;
 }
      /* /SUBSCRIBE-PAGE */
-.hero {
+.hero--subscribe {
   padding: 134px 85px;
   background-color: #A2A2A2;
   background-image: url(../img/subscription-bg-1x.jpg);
