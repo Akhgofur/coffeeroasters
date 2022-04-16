@@ -575,7 +575,7 @@ only screen and (min-resolution: 2dppx) {
 }
 .hero--about-us
 .hero__content {
-  width: 445px;
+  max-width: 445px;
 }
 .hero--about-us
 .hero__desc {
@@ -949,7 +949,6 @@ only screen and (min-resolution: 2dppx) {
     margin-bottom: 16px;
     
   }
-  
   .coffecreate__form-desc-wrapper {
     padding-right: 24px;
     padding-left: 24px;
