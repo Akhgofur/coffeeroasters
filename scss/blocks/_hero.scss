@@ -9,7 +9,8 @@
 }
 .hero__content {
     text-align: left;
-    width: 495px;
+    max-width: 495px;
+    width: 100%;
 }
 .hero__heading {
     font-family: 'Fraunces';
