@@ -833,18 +833,18 @@ only screen and (min-resolution: 2dppx) {
 @media only screen and (max-width:650px) {
   .sitenav {
     display: none;
-  }
-  .hero {
-    padding: 100px 24px;
-  }
-  .hero__content {
-    text-align: center;
-    width: auto;
-  }
-  .hero__heading {
-    font-size: 40px;
-    line-height: 40px;
-  }
+    }
+    .hero {
+      padding: 100px 24px;
+    }
+    .hero__content {
+      text-align: center;
+      width: auto;
+    }
+    .hero__heading {
+      font-size: 40px;
+      line-height: 40px;
+    }
   .coffeetypes {
     padding-top: 120px;
     padding-bottom: 120px;
