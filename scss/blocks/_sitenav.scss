@@ -1,0 +1,30 @@
+
+.sitenav__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.sitenav__item {
+    &:not(:last-child) {
+        margin-right: 33px;
+    }
+}
+.sitenav__link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    &:hover {
+        color: #333D4B;  
+    }
+}
+@media only screen and (max-width:650px) {
+    .sitenav {
+      display: none;
+    }
+}

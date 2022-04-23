@@ -1,0 +1,117 @@
+.about {
+    padding-right: 85px;
+    padding-left: 85px;
+    padding-top: 100px;
+    padding-bottom: 317px;
+    border-radius: 10px;
+    background-color: #2C343E;
+    position: relative;
+    max-width: 1280px;
+    text-align: center;
+}
+.about__heading-wrapper {
+    max-width: 540px;
+    margin: 0 auto;
+}
+.about__heading {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 32px;
+    color: #FEFCF7;
+}
+.about__desc {
+    color: #FEFCF7;
+    margin: 0;
+}
+.about__list {
+    position: absolute;
+    top: 346px;
+    left: 85px;
+    @include list-unstyled
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+.about__item {
+    width: 350px;
+    background-color: #0E8784;
+    padding: 48px;
+    padding-top: 72px;
+    border-radius: 8px;
+    color: #FEFCF7;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+.about__item-img {
+    margin-bottom: 56px;
+}
+.about__item-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: 'Fraunces';
+}
+@media only screen and (max-width:1200px) {
+    .about {
+      padding-bottom: 370px;
+    }
+    .about__heading {
+      font-size: 32px;
+      line-height: 48px;
+    }
+    .about__list {
+      flex-direction: column;
+      margin-right: 85px;
+    }
+    .about__item {
+      padding: 41px 48px 41px 70px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:not(:last-child) {
+        margin-bottom: 24px;
+      }
+    }
+    .about__item-img {
+      width: 51px;
+      height: 56px;
+      padding: 0;
+      margin: 0;
+      margin-right: 55px;
+    }
+    .about__item-content {
+      text-align: left;
+    }
+}
+@media only screen and (max-width:650px) {
+    .about {
+      padding-right: 24px;
+      padding-left: 24px;
+      padding-top: 64px;
+      padding-bottom: 664px;
+    }
+    .about__list {
+      left: 24px;
+      margin-right: 24px;
+    }
+    .about__item {
+      flex-direction: column;
+      padding: 72px 33px;
+      padding-bottom: 51px;
+      width: 100%;
+    }
+    .about__item-img {
+      margin: 0;
+      margin-bottom: 56px;
+      width: 72px;
+      height: 72px;
+    }
+    .about__item-content {
+      text-align: center;
+    }
+}

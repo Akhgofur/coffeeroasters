@@ -1,0 +1,29 @@
+.site-footer {
+    padding: 47px 85px;
+    background-color: #2C343E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-footer__sm-list {
+    @include list-unstyled
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.site-footer__sm-item {
+    &:not(:last-child) {
+        margin-right: 24px;
+    }
+}
+.site-footer__sm-link {
+    color: #fff;
+    &:hover path {
+        fill: #FDD6BA;
+    }
+}
+@media only screen and (max-width:1200px) {
+    .site-footer {
+      flex-direction: column;
+    }
+}

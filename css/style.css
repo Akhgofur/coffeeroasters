@@ -376,9 +376,14 @@ only screen and (min-resolution: 2dppx) {
 .site-footer__sm-item:not(:last-child) {
   margin-right: 24px; 
 } 
-.site-footer__sm-link
-.site-footer__sm-logo:hover {
-  opacity: 0.5;
+.site-footer__sm-link {
+  color: #fff;
+}
+.site-footer__sm-link:hover {
+  color: #FDD6BA;
+}
+.site-footer__sm-link:hover path {
+  fill: #FDD6BA;
 }
 .site-footer__sm-logo {
   display: block;
@@ -390,7 +395,8 @@ only screen and (min-resolution: 2dppx) {
   background-image: url(../img/subscription-bg-1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px;margin-bottom: 165px;
+  border-radius: 10px;
+  margin-bottom: 165px;
 
 }
 .hero--subscribe
@@ -422,8 +428,6 @@ only screen and (min-resolution: 2dppx) {
 .services--dark
 .services__list {
   margin-bottom: 0;
-}
-.services__item {
 }
 .services--dark
 .services__item-heading {
@@ -507,8 +511,6 @@ only screen and (min-resolution: 2dppx) {
 }
 .coffeesteps__step-item:not(:last-child) {
   margin-right: 23px;
-}
-.coffeesteps__step-item-input {
 }
 .coffeesteps__step-item-inner {
   width: 100%;
@@ -998,6 +1000,5 @@ only screen and (min-resolution: 2dppx) {
   .headquarters__item:not(:last-child) {
     margin-right: 0;
     margin-bottom: 80px;
-  }
   }
 }

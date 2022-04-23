@@ -1,0 +1,15 @@
+.primary-link {
+    font-family: 'Fraunces';
+    color: #FEFCF7;
+    background-color: #0E8784;
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px 31px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 6px;
+    &:hover {
+        background-color: #66D2CF;
+    }
+}

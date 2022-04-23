@@ -1,0 +1,103 @@
+.services {
+    padding-top: 351px;
+    padding-bottom: 200px;
+    text-align: left;
+    padding-right: 85px;
+    padding-left: 85px;
+}
+.services__heading {
+    font-family: 'Fraunces';
+    margin-top: 0;
+    margin-bottom: 95px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+.services__list {
+    @include list-unstyled
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin-bottom: 64px;
+    position: relative;
+    counter-reset: item;
+}
+.services__item {
+    width: 380px;
+    padding-top: 82px;
+    padding-right: 95px;
+    counter-increment: item;
+    &:not(:last-child) {
+        border-top: 1px solid #FDD6BA;
+    }
+    &::before {
+        display: block;
+        content: '0' counter(item);
+        font-family: 'Fraunces';
+        margin-top: 0;
+        margin-bottom: 38px;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+    &::after {
+        content: '';
+        top: -16px;
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+        border: 2px solid #0E8784;
+        position: absolute;
+    }
+}
+.services__item-heading {
+    font-family: 'Fraunces';
+    margin-top: 0;
+    margin-bottom: 42px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+.services__item-desc {
+    margin: 0;
+    color: #333D4B;
+}
+@media only screen and (max-width:1200px) {
+    .services {
+      padding-top: 470px;
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+    .services__item {
+      padding-right: 10px;
+    }
+}
+@media only screen and (max-width:650px) {
+  .services {
+    text-align: center;
+    padding-top: 717px;
+    padding-bottom: 120px;
+  }
+  .services__heading {
+    margin-bottom: 80px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .services__list {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  .services__item {
+    width: auto;
+    &::after {
+      display: none;
+    }
+    &:not(:last-child) {
+      border-top: none;
+      margin-bottom: 56px;
+    }
+  }
+}
