@@ -1,3 +1,10 @@
 .site-logo {
     display: block;
 }
+
+@include breakpoint-down(410px) {
+    .logo-link {
+        width: 163px;
+        height: 18px;
+    }
+}

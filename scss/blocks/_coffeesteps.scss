@@ -1,6 +1,6 @@
 
 .coffeesteps {
-    @include list-unstyled
+    @include list-unstyled;
     margin-bottom: 88px;
 }
 .coffeesteps__step {
@@ -19,7 +19,7 @@
     color: #83888F;  
 }
 .coffeesteps__step-list {
-    @include list-unstyled
+    @include list-unstyled;
     display: flex;
     align-items: stretch;
     justify-content: start;

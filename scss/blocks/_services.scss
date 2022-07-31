@@ -15,7 +15,7 @@
     color: #83888F;
 }
 .services__list {
-    @include list-unstyled
+    @include list-unstyled;
     display: flex;
     align-items: stretch;
     justify-content: center;

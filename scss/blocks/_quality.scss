@@ -51,6 +51,7 @@
       top: -160px;
       left: calc(50% - 285px);
       object-fit: cover;
+      object-position: bottom;
     }
 }
 @media only screen and (max-width:650px) {
@@ -66,5 +67,7 @@
       height: 155px;
       top: -78px;
       left: calc(50% - 140px);
+      object-fit: cover;
+      object-position: bottom;
     }
 }

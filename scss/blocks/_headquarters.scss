@@ -12,7 +12,7 @@
     margin-bottom: 72px;
 }
 .headquarters__list {
-    @include list-unstyled
+    @include list-unstyled;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -42,8 +42,8 @@
 }
 @media only screen and (max-width:1200px) {
     .headquarters {
-      padding-right: 0;
-      padding-left: 0;
+      padding-right: 40px;
+      padding-left: 40px;
     }
     .headquarters__item:not(:last-child) {
       margin-right: 10px;
@@ -52,6 +52,12 @@
       font-size: 24px;
       line-height: 36px;
     }
+}
+@include breakpoint-down(810px) {
+  .headquarters {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 @media only screen and (max-width:650px) {
     .headquarters {

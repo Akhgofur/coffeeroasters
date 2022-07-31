@@ -4,7 +4,7 @@
     padding: 168px 85px;
 }
 .coffeecreate__steps {
-    @include list-unstyled
+    @include list-unstyled;
     counter-reset: item;
 }
 .coffeecreate__item {
@@ -26,6 +26,7 @@
     }
 }
 .coffeecreate__item-button {
+    text-decoration: none;
     font-family: 'Fraunces';
     font-weight: 900;
     font-size: 24px;
@@ -68,6 +69,7 @@
     .coffeecreate {
       padding-right: 40px;
       padding-left: 40px;
+      justify-content: center;
     }
     .coffeecreate__steps {
      display: none;
