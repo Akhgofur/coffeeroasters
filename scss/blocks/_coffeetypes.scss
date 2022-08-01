@@ -19,14 +19,15 @@
 }
 .coffeetypes__list {
     @include list-unstyled;
-    margin-top: -60;
+    margin-top: -60px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     z-index: 2;
 }
 .coffeetypes__item {
-    width: 255px;
+    max-width: 255px;
+    width: 100%;
     z-index: 2;
     &:not(:last-child) {
         margin-right: 30px;
@@ -47,7 +48,7 @@
     margin: 0;
     color: #333D4B;
 }
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:900px) {
     .coffeetypes__heading {
       font-size: 80px;
       line-height: 72px;
@@ -61,8 +62,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
     width: 100%;
     padding: 35px 41px;
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    }
+    .coffeetypes__item-img {
+      margin-bottom: 0;
     }
     .coffeetypes__item-content {
       text-align: left;
@@ -78,6 +86,9 @@
     }
     .coffeetypes__item {
       flex-direction: column;
+    }
+    .coffeetypes__item-img {
+      margin-bottom: 24px;
     }
     .coffeetypes__item-content {
       text-align: center;

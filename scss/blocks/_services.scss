@@ -73,7 +73,7 @@
 }
 @media only screen and (max-width:1200px) {
     .services {
-      padding-top: 470px;
+      padding-top: 370px;
       padding-right: 40px;
       padding-left: 40px;
     }
@@ -84,7 +84,7 @@
 @media only screen and (max-width:650px) {
   .services {
     text-align: center;
-    padding-top: 717px;
+    padding-top: 650px;
     padding-bottom: 120px;
   }
   .services__heading {
@@ -97,6 +97,7 @@
     margin-bottom: 80px;
   }
   .services__item {
+    padding-top: 0;
     width: auto;
     display: block;
     &::after {
