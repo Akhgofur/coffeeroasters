@@ -1382,6 +1382,7 @@ img {
   display: block;
   max-width: 217px;
   border: none;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1200px) {
