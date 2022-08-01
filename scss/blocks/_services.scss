@@ -28,6 +28,10 @@
     padding-top: 82px;
     padding-right: 95px;
     counter-increment: item;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
     &:not(:last-child) {
         border-top: 1px solid #FDD6BA;
     }
@@ -64,6 +68,8 @@
 .services__item-desc {
     margin: 0;
     color: #333D4B;
+    margin-top: auto;
+
 }
 @media only screen and (max-width:1200px) {
     .services {
@@ -92,6 +98,7 @@
   }
   .services__item {
     width: auto;
+    display: block;
     &::after {
       display: none;
     }

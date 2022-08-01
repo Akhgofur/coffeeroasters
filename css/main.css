@@ -889,6 +889,10 @@ img {
   padding-top: 82px;
   padding-right: 95px;
   counter-increment: item;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .services__item:not(:last-child) {
   border-top: 1px solid #FDD6BA;
@@ -927,6 +931,7 @@ img {
 .services__item-desc {
   margin: 0;
   color: #333D4B;
+  margin-top: auto;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -956,6 +961,7 @@ img {
   }
   .services__item {
     width: auto;
+    display: block;
   }
   .services__item::after {
     display: none;
