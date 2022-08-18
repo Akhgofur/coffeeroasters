@@ -109,3 +109,32 @@
     }
   }
 }
+.services--dark {
+  background-color: #2C343E;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+  .services__list {
+    margin-bottom: 0;
+  }
+  .services__item-heading {
+    color: #FEFCF7;
+  }
+  .services__item-desc {
+    color: #FEFCF7;
+  }
+}
+@media only screen and (max-width:1200px) {
+.services--dark {
+  padding-top: 97px;
+}
+}
+@media only screen and (max-width:650px) {
+.services--dark {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .services__item {
+    padding-top: 0;
+  }
+}
+}
